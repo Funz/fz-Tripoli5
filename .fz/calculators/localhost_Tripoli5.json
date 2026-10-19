@@ -1,0 +1,6 @@
+{
+    "uri": "sh://",
+    "models": {
+        "Tripoli5": "bash .fz/calculators/Tripoli5.sh"
+    }
+}

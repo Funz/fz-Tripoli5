@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Test plugin
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install fz and pytest
+      # No `fz install model Tripoli5` here: it would overwrite the checked-out .fz/
+      # with the published plugin, so CI would not test this commit.
+      run: pip install git+https://github.com/Funz/fz.git pytest
+
+    - name: Validate JSON files
+      run: for f in .fz/models/*.json .fz/calculators/*.json; do python -m json.tool "$f" > /dev/null || exit 1; done
+
+    - name: Check shell scripts (syntax, executable bit)
+      run: for s in .fz/calculators/*.sh; do bash -n "$s" && test -x "$s" || exit 1; done
+
+    - name: Check that the model JSON matches tools/tripoli5_outputs.py
+      run: python tools/make_model.py --check
+
+    - name: Model and calculator alias validate with fz
+      run: |
+        fz list --check --format json | python -c "
+        import json, sys
+        d = json.load(sys.stdin)
+        assert d['models']['Tripoli5']['check_status'] == 'passed', d['models']
+        assert d['calculators']['localhost_Tripoli5']['check_status'] == 'passed', d['calculators']
+        "
+
+    - name: Variable parsing and compilation of the example
+      run: |
+        python -c "import fz; print(fz.fzi('examples/Tripoli5/jezebel.py', 'Tripoli5'))"
+        python -c "import fz; fz.fzc('examples/Tripoli5/jezebel.py', {'radius': 6.5}, 'Tripoli5', output_dir='compiled')"
+        python -m py_compile compiled/*/jezebel.py
+
+    - name: Tests (outputs, runner, fz end-to-end with a fake TRIPOLI-5)
+      run: pytest tests/ -v

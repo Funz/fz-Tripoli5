@@ -1,0 +1,27 @@
+# Results and temporary files
+results/
+compiled*/
+PID
+tripoli5.log
+tripoli5_results.json
+!tests/fixtures/**/tripoli5.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# fz
+.fz/tmp/
+*.fz_hash
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db

@@ -1,0 +1,252 @@
+[2026-06-05 13:02:18.099] [info] Loading catalog from file: /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/endfb8r0_mcnp_v2.3.0.yaml
+[2026-06-05 13:02:18.130] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/mass/njoy_ace/v0.2.0/archive/wrapped_mass_data.bin
+[2026-06-05 13:02:18.153] [info] Building U234 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:18.157] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U234.294.bin
+[2026-06-05 13:02:18.179] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U234.294.urr.ace.bin
+[2026-06-05 13:02:18.183] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:18.184] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:18.185] [info] Building U235 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:18.187] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U235.294.bin
+[2026-06-05 13:02:18.287] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U235.294.urr.ace.bin
+[2026-06-05 13:02:18.291] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:18.292] [info]   Building reaction MTs = 814, 52, 813, 51, 818, 56, 76, 17, 817, 55, 75, 16, 77, 18, 816, 54, 72, 834, 815, 53, 822, 60, 821, 59, 5, 74, 82, 83, 84, 85, 86, 87, 81, 806, 91, 80, 805, 79, 804, 68, 830, 835, 73, 102, 810, 2, 89, 78, 803, 88, 802, 801, 800, 63, 825, 64, 826, 649, 65, 827, 828, 66, 67, 829, 61, 823, 831, 69, 812, 833, 71, 811, 62, 824, 832, 70, 809, 808, 807, 58, 820, 57, 819
+[2026-06-05 13:02:18.293] [info] Building U236 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:18.295] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U236.294.bin
+[2026-06-05 13:02:18.309] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U236.294.urr.ace.bin
+[2026-06-05 13:02:18.313] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:18.314] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:18.315] [info] Building U238 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:18.316] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U238.294.bin
+[2026-06-05 13:02:18.407] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U238.294.urr.ace.bin
+[2026-06-05 13:02:18.411] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:18.412] [info]   Building reaction MTs = 77, 18, 76, 17, 79, 51, 80, 52, 81, 82, 75, 16, 800, 56, 85, 78, 74, 73, 102, 62, 91, 65, 66, 61, 2, 60, 89, 67, 68, 69, 64, 5, 63, 70, 58, 87, 71, 57, 86, 649, 59, 88, 53, 72, 54, 83, 84, 55
+[2026-06-05 13:02:18.457] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:18.459] [info] Cycle: 1 of 10
+[2026-06-05 13:02:18.556] [info] Cycle: 2 of 10
+[2026-06-05 13:02:18.630] [info] Cycle: 3 of 10
+[2026-06-05 13:02:18.703] [info] Cycle: 4 of 10
+[2026-06-05 13:02:18.773] [info] Cycle: 5 of 10
+[2026-06-05 13:02:18.848] [info] Cycle: 6 of 10
+[2026-06-05 13:02:18.917] [info] Cycle: 7 of 10
+[2026-06-05 13:02:18.985] [info] Cycle: 8 of 10
+[2026-06-05 13:02:19.057] [info] Cycle: 9 of 10
+[2026-06-05 13:02:19.140] [info] Cycle: 10 of 10
+[2026-06-05 13:02:19.228] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:19.231] [info] Cycle: 1 of 10
+[2026-06-05 13:02:19.269] [info] Cycle: 2 of 10
+[2026-06-05 13:02:19.283] [info] Cycle: 3 of 10
+[2026-06-05 13:02:19.297] [info] Cycle: 4 of 10
+[2026-06-05 13:02:19.310] [info] Cycle: 5 of 10
+[2026-06-05 13:02:19.323] [info] Cycle: 6 of 10
+[2026-06-05 13:02:19.335] [info] Cycle: 7 of 10
+[2026-06-05 13:02:19.349] [info] Cycle: 8 of 10
+[2026-06-05 13:02:19.361] [info] Cycle: 9 of 10
+[2026-06-05 13:02:19.374] [info] Cycle: 10 of 10
+[2026-06-05 13:02:19.401] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:19.404] [info] Cycle: 1 of 30
+[2026-06-05 13:02:19.411] [info]   kstep = 0.59400
+[2026-06-05 13:02:19.414] [info] Cycle: 2 of 30
+[2026-06-05 13:02:19.421] [info]   kstep = 0.36600
+[2026-06-05 13:02:19.422] [info] Cycle: 3 of 30
+[2026-06-05 13:02:19.429] [info]   kstep = 0.34600
+[2026-06-05 13:02:19.430] [info] Cycle: 4 of 30
+[2026-06-05 13:02:19.437] [info]   kstep = 0.31800
+[2026-06-05 13:02:19.438] [info] Cycle: 5 of 30
+[2026-06-05 13:02:19.444] [info]   kstep = 0.35800
+[2026-06-05 13:02:19.445] [info] Cycle: 6 of 30
+[2026-06-05 13:02:19.452] [info]   kstep = 0.30000
+[2026-06-05 13:02:19.457] [info] Cycle: 7 of 30
+[2026-06-05 13:02:19.463] [info]   kstep = 0.36600
+[2026-06-05 13:02:19.465] [info] Cycle: 8 of 30
+[2026-06-05 13:02:19.471] [info]   kstep = 0.34800
+[2026-06-05 13:02:19.473] [info] Cycle: 9 of 30
+[2026-06-05 13:02:19.479] [info]   kstep = 0.36800
+[2026-06-05 13:02:19.480] [info] Cycle: 10 of 30
+[2026-06-05 13:02:19.487] [info]   kstep = 0.32300
+[2026-06-05 13:02:19.488] [info] Cycle: 11 of 30
+[2026-06-05 13:02:19.494] [info]   kstep = 0.33700
+[2026-06-05 13:02:19.496] [info] Cycle: 12 of 30
+[2026-06-05 13:02:19.503] [info]   kstep = 0.34300   kstep_avg = 0.34000 +/- 0.00300
+[2026-06-05 13:02:19.507] [info] Cycle: 13 of 30
+[2026-06-05 13:02:19.513] [info]   kstep = 0.32200   kstep_avg = 0.33400 +/- 0.00624
+[2026-06-05 13:02:19.514] [info] Cycle: 14 of 30
+[2026-06-05 13:02:19.522] [info]   kstep = 0.24000   kstep_avg = 0.31050 +/- 0.02391
+[2026-06-05 13:02:19.523] [info] Cycle: 15 of 30
+[2026-06-05 13:02:19.529] [info]   kstep = 0.33400   kstep_avg = 0.31520 +/- 0.01911
+[2026-06-05 13:02:19.530] [info] Cycle: 16 of 30
+[2026-06-05 13:02:19.537] [info]   kstep = 0.36400   kstep_avg = 0.32333 +/- 0.01759
+[2026-06-05 13:02:19.538] [info] Cycle: 17 of 30
+[2026-06-05 13:02:19.544] [info]   kstep = 0.29900   kstep_avg = 0.31986 +/- 0.01527
+[2026-06-05 13:02:19.546] [info] Cycle: 18 of 30
+[2026-06-05 13:02:19.551] [info]   kstep = 0.35000   kstep_avg = 0.32362 +/- 0.01375
+[2026-06-05 13:02:19.553] [info] Cycle: 19 of 30
+[2026-06-05 13:02:19.559] [info]   kstep = 0.33000   kstep_avg = 0.32433 +/- 0.01215
+[2026-06-05 13:02:19.561] [info] Cycle: 20 of 30
+[2026-06-05 13:02:19.567] [info]   kstep = 0.31800   kstep_avg = 0.32370 +/- 0.01088
+[2026-06-05 13:02:19.568] [info] Cycle: 21 of 30
+[2026-06-05 13:02:19.574] [info]   kstep = 0.26300   kstep_avg = 0.31818 +/- 0.01129
+[2026-06-05 13:02:19.576] [info] Cycle: 22 of 30
+[2026-06-05 13:02:19.582] [info]   kstep = 0.26600   kstep_avg = 0.31383 +/- 0.01118
+[2026-06-05 13:02:19.583] [info] Cycle: 23 of 30
+[2026-06-05 13:02:19.589] [info]   kstep = 0.30600   kstep_avg = 0.31323 +/- 0.01030
+[2026-06-05 13:02:19.591] [info] Cycle: 24 of 30
+[2026-06-05 13:02:19.597] [info]   kstep = 0.35600   kstep_avg = 0.31629 +/- 0.01002
+[2026-06-05 13:02:19.598] [info] Cycle: 25 of 30
+[2026-06-05 13:02:19.604] [info]   kstep = 0.32700   kstep_avg = 0.31700 +/- 0.00935
+[2026-06-05 13:02:19.606] [info] Cycle: 26 of 30
+[2026-06-05 13:02:19.612] [info]   kstep = 0.30100   kstep_avg = 0.31600 +/- 0.00881
+[2026-06-05 13:02:19.613] [info] Cycle: 27 of 30
+[2026-06-05 13:02:19.619] [info]   kstep = 0.37300   kstep_avg = 0.31935 +/- 0.00893
+[2026-06-05 13:02:19.621] [info] Cycle: 28 of 30
+[2026-06-05 13:02:19.627] [info]   kstep = 0.35000   kstep_avg = 0.32106 +/- 0.00859
+[2026-06-05 13:02:19.629] [info] Cycle: 29 of 30
+[2026-06-05 13:02:19.635] [info]   kstep = 0.34000   kstep_avg = 0.32205 +/- 0.00818
+[2026-06-05 13:02:19.636] [info] Cycle: 30 of 30
+[2026-06-05 13:02:19.642] [info]   kstep = 0.35600   kstep_avg = 0.32375 +/- 0.00795
+[2026-06-05 13:02:19.702] [info] Building majorant cross section...
+[2026-06-05 13:02:19.714] [info] ... sorting the unionized grid...
+[2026-06-05 13:02:19.731] [info] ... removing duplicate points from the grid...
+[2026-06-05 13:02:19.734] [info] ... removing energies outside the simulation range...
+[2026-06-05 13:02:19.736] [info] ... unionized grid has 270614 points...
+[2026-06-05 13:02:20.390] [info] ... majorant cross section built!
+[2026-06-05 13:02:20.400] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:20.403] [info] Cycle: 1 of 10
+[2026-06-05 13:02:21.475] [info] Cycle: 2 of 10
+[2026-06-05 13:02:22.381] [info] Cycle: 3 of 10
+[2026-06-05 13:02:23.398] [info] Cycle: 4 of 10
+[2026-06-05 13:02:24.270] [info] Cycle: 5 of 10
+[2026-06-05 13:02:25.088] [info] Cycle: 6 of 10
+[2026-06-05 13:02:25.891] [info] Cycle: 7 of 10
+[2026-06-05 13:02:26.683] [info] Cycle: 8 of 10
+[2026-06-05 13:02:27.442] [info] Cycle: 9 of 10
+[2026-06-05 13:02:28.339] [info] Cycle: 10 of 10
+[2026-06-05 13:02:29.177] [info] Building U234 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.183] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.184] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:29.186] [info] Building U235 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.190] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.191] [info]   Building reaction MTs = 814, 52, 813, 51, 818, 56, 76, 17, 817, 55, 75, 16, 77, 18, 816, 54, 72, 834, 815, 53, 822, 60, 821, 59, 5, 74, 82, 83, 84, 85, 86, 87, 81, 806, 91, 80, 805, 79, 804, 68, 830, 835, 73, 102, 810, 2, 89, 78, 803, 88, 802, 801, 800, 63, 825, 64, 826, 649, 65, 827, 828, 66, 67, 829, 61, 823, 831, 69, 812, 833, 71, 811, 62, 824, 832, 70, 809, 808, 807, 58, 820, 57, 819
+[2026-06-05 13:02:29.192] [info] Building U236 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.195] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.196] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:29.197] [info] Building U238 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.200] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.201] [info]   Building reaction MTs = 77, 18, 76, 17, 79, 51, 80, 52, 81, 82, 75, 16, 800, 56, 85, 78, 74, 73, 102, 62, 91, 65, 66, 61, 2, 60, 89, 67, 68, 69, 64, 5, 63, 70, 58, 87, 71, 57, 86, 649, 59, 88, 53, 72, 54, 83, 84, 55
+[2026-06-05 13:02:29.202] [info] Building majorant cross section...
+[2026-06-05 13:02:29.209] [info] ... sorting the unionized grid...
+[2026-06-05 13:02:29.235] [info] ... removing duplicate points from the grid...
+[2026-06-05 13:02:29.237] [info] ... removing energies outside the simulation range...
+[2026-06-05 13:02:29.239] [info] ... unionized grid has 270614 points...
+[2026-06-05 13:02:29.313] [info] ... majorant cross section built!
+[2026-06-05 13:02:29.335] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:29.336] [info] Cycle: 1 of 10
+[2026-06-05 13:02:29.366] [info] Cycle: 2 of 10
+[2026-06-05 13:02:29.387] [info] Cycle: 3 of 10
+[2026-06-05 13:02:29.404] [info] Cycle: 4 of 10
+[2026-06-05 13:02:29.418] [info] Cycle: 5 of 10
+[2026-06-05 13:02:29.432] [info] Cycle: 6 of 10
+[2026-06-05 13:02:29.446] [info] Cycle: 7 of 10
+[2026-06-05 13:02:29.460] [info] Cycle: 8 of 10
+[2026-06-05 13:02:29.476] [info] Cycle: 9 of 10
+[2026-06-05 13:02:29.490] [info] Cycle: 10 of 10
+[2026-06-05 13:02:29.511] [info] Building U234 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.514] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U234.294.bin
+[2026-06-05 13:02:29.528] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U234.294.urr.ace.bin
+[2026-06-05 13:02:29.531] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.532] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:29.532] [info] Building U235 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.536] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U235.294.bin
+[2026-06-05 13:02:29.626] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U235.294.urr.ace.bin
+[2026-06-05 13:02:29.629] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.629] [info]   Building reaction MTs = 814, 52, 813, 51, 818, 56, 76, 17, 817, 55, 75, 16, 77, 18, 816, 54, 72, 834, 815, 53, 822, 60, 821, 59, 5, 74, 82, 83, 84, 85, 86, 87, 81, 806, 91, 80, 805, 79, 804, 68, 830, 835, 73, 102, 810, 2, 89, 78, 803, 88, 802, 801, 800, 63, 825, 64, 826, 649, 65, 827, 828, 66, 67, 829, 61, 823, 831, 69, 812, 833, 71, 811, 62, 824, 832, 70, 809, 808, 807, 58, 820, 57, 819
+[2026-06-05 13:02:29.630] [info] Building U236 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.632] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U236.294.bin
+[2026-06-05 13:02:29.646] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U236.294.urr.ace.bin
+[2026-06-05 13:02:29.650] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.651] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:29.651] [info] Building U238 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.655] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U238.294.bin
+[2026-06-05 13:02:29.745] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U238.294.urr.ace.bin
+[2026-06-05 13:02:29.749] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:29.749] [info]   Building reaction MTs = 77, 18, 76, 17, 79, 51, 80, 52, 81, 82, 75, 16, 800, 56, 85, 78, 74, 73, 102, 62, 91, 65, 66, 61, 2, 60, 89, 67, 68, 69, 64, 5, 63, 70, 58, 87, 71, 57, 86, 649, 59, 88, 53, 72, 54, 83, 84, 55
+[2026-06-05 13:02:29.762] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:29.763] [info] Cycle: 1 of 10
+[2026-06-05 13:02:29.798] [info] Cycle: 2 of 10
+[2026-06-05 13:02:29.816] [info] Cycle: 3 of 10
+[2026-06-05 13:02:29.834] [info] Cycle: 4 of 10
+[2026-06-05 13:02:29.867] [info] Cycle: 5 of 10
+[2026-06-05 13:02:29.890] [info] Cycle: 6 of 10
+[2026-06-05 13:02:29.909] [info] Cycle: 7 of 10
+[2026-06-05 13:02:29.925] [info] Cycle: 8 of 10
+[2026-06-05 13:02:29.943] [info] Cycle: 9 of 10
+[2026-06-05 13:02:29.961] [info] Cycle: 10 of 10
+[2026-06-05 13:02:29.985] [info] Building U234 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:29.988] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U234.294.bin
+[2026-06-05 13:02:30.003] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U234.294.urr.ace.bin
+[2026-06-05 13:02:30.006] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.006] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:30.007] [info] Building U235 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:30.010] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U235.294.bin
+[2026-06-05 13:02:30.099] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U235.294.urr.ace.bin
+[2026-06-05 13:02:30.103] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.103] [info]   Building reaction MTs = 814, 52, 813, 51, 818, 56, 76, 17, 817, 55, 75, 16, 77, 18, 816, 54, 72, 834, 815, 53, 822, 60, 821, 59, 5, 74, 82, 83, 84, 85, 86, 87, 81, 806, 91, 80, 805, 79, 804, 68, 830, 835, 73, 102, 810, 2, 89, 78, 803, 88, 802, 801, 800, 63, 825, 64, 826, 649, 65, 827, 828, 66, 67, 829, 61, 823, 831, 69, 812, 833, 71, 811, 62, 824, 832, 70, 809, 808, 807, 58, 820, 57, 819
+[2026-06-05 13:02:30.104] [info] Building U236 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:30.108] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U236.294.bin
+[2026-06-05 13:02:30.123] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U236.294.urr.ace.bin
+[2026-06-05 13:02:30.126] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.126] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:30.127] [info] Building U238 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:30.130] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/U238.294.bin
+[2026-06-05 13:02:30.220] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/U238.294.urr.ace.bin
+[2026-06-05 13:02:30.224] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.224] [info]   Building reaction MTs = 77, 18, 76, 17, 79, 51, 80, 52, 81, 82, 75, 16, 800, 56, 85, 78, 74, 73, 102, 62, 91, 65, 66, 61, 2, 60, 89, 67, 68, 69, 64, 5, 63, 70, 58, 87, 71, 57, 86, 649, 59, 88, 53, 72, 54, 83, 84, 55
+[2026-06-05 13:02:30.229] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:30.230] [info] Cycle: 1 of 10
+[2026-06-05 13:02:30.262] [info] Cycle: 2 of 10
+[2026-06-05 13:02:30.282] [info] Cycle: 3 of 10
+[2026-06-05 13:02:30.300] [info] Cycle: 4 of 10
+[2026-06-05 13:02:30.317] [info] Cycle: 5 of 10
+[2026-06-05 13:02:30.336] [info] Cycle: 6 of 10
+[2026-06-05 13:02:30.354] [info] Cycle: 7 of 10
+[2026-06-05 13:02:30.373] [info] Cycle: 8 of 10
+[2026-06-05 13:02:30.392] [info] Cycle: 9 of 10
+[2026-06-05 13:02:30.409] [info] Cycle: 10 of 10
+[2026-06-05 13:02:30.438] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:30.438] [info] Cycle: 1 of 10
+[2026-06-05 13:02:30.456] [info] Cycle: 2 of 10
+[2026-06-05 13:02:30.472] [info] Cycle: 3 of 10
+[2026-06-05 13:02:30.487] [info] Cycle: 4 of 10
+[2026-06-05 13:02:30.503] [info] Cycle: 5 of 10
+[2026-06-05 13:02:30.519] [info] Cycle: 6 of 10
+[2026-06-05 13:02:30.535] [info] Cycle: 7 of 10
+[2026-06-05 13:02:30.551] [info] Cycle: 8 of 10
+[2026-06-05 13:02:30.567] [info] Cycle: 9 of 10
+[2026-06-05 13:02:30.583] [info] Cycle: 10 of 10
+[2026-06-05 13:02:30.607] [info] Building U234 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:30.611] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.612] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:30.612] [info] Building U235 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:30.620] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.621] [info]   Building reaction MTs = 814, 52, 813, 51, 818, 56, 76, 17, 817, 55, 75, 16, 77, 18, 816, 54, 72, 834, 815, 53, 822, 60, 821, 59, 5, 74, 82, 83, 84, 85, 86, 87, 81, 806, 91, 80, 805, 79, 804, 68, 830, 835, 73, 102, 810, 2, 89, 78, 803, 88, 802, 801, 800, 63, 825, 64, 826, 649, 65, 827, 828, 66, 67, 829, 61, 823, 831, 69, 812, 833, 71, 811, 62, 824, 832, 70, 809, 808, 807, 58, 820, 57, 819
+[2026-06-05 13:02:30.621] [info] Building U236 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:30.625] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.626] [info]   Building reaction MTs = 20, 79, 21, 80, 66, 37, 51, 70, 71, 72, 74, 77, 73, 102, 89, 91, 67, 38, 90, 88, 87, 57, 86, 58, 54, 83, 60, 2, 61, 62, 63, 64, 65, 55, 84, 68, 56, 85, 69, 59, 53, 82, 16, 75, 17, 76, 19, 78, 81, 52
+[2026-06-05 13:02:30.626] [info] Building U238 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 13:02:30.632] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 13:02:30.634] [info]   Building reaction MTs = 77, 18, 76, 17, 79, 51, 80, 52, 81, 82, 75, 16, 800, 56, 85, 78, 74, 73, 102, 62, 91, 65, 66, 61, 2, 60, 89, 67, 68, 69, 64, 5, 63, 70, 58, 87, 71, 57, 86, 649, 59, 88, 53, 72, 54, 83, 84, 55
+[2026-06-05 13:02:30.634] [info] Building majorant cross section...
+[2026-06-05 13:02:30.641] [info] ... sorting the unionized grid...
+[2026-06-05 13:02:30.650] [info] ... removing duplicate points from the grid...
+[2026-06-05 13:02:30.651] [info] ... removing energies outside the simulation range...
+[2026-06-05 13:02:30.653] [info] ... unionized grid has 270614 points...
+[2026-06-05 13:02:30.708] [info] ... majorant cross section built!
+[2026-06-05 13:02:30.719] [info] *** Beginning of simulation ***
+[2026-06-05 13:02:30.720] [info] Cycle: 1 of 1
+[2026-06-05 13:02:30.723] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 0.819575531318989 [MeV]
+[2026-06-05 13:02:30.724] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 1.9982797918792201 [MeV]
+[2026-06-05 13:02:30.725] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 1.994084026223577 [MeV]
+[2026-06-05 13:02:30.726] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 1.9336711527119586 [MeV]
+[2026-06-05 13:02:30.726] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 0.9410582500184707 [MeV]
+[2026-06-05 13:02:30.727] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 1.8448143277616609 [MeV]
+[2026-06-05 13:02:30.728] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 3.1128570967679137 [MeV]
+[2026-06-05 13:02:30.728] [error] Exception raised during transport. The particle will be killed. Exception: Could not evaluate collision at energy 0.3666569074141357 [MeV]

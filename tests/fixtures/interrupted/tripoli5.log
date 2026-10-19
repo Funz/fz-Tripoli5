@@ -1,0 +1,106 @@
+[2026-06-05 12:58:47.429] [info] Loading catalog from file: /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/endfb8r0_mcnp_v2.3.0.yaml
+[2026-06-05 12:58:47.453] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/mass/njoy_ace/v0.2.0/archive/wrapped_mass_data.bin
+[2026-06-05 12:58:47.486] [info] Building GA69 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 12:58:47.490] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/GA69.294.bin
+[2026-06-05 12:58:47.498] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 12:58:47.500] [info]   Building reaction MTs = 60, 72, 2, 61, 57, 28, 54, 55, 59, 62, 32, 91, 63, 64, 65, 53, 66, 67, 68, 69, 70, 58, 71, 56, 73, 102, 74, 103, 51, 22, 111, 52, 104, 16, 75, 105, 107, 106
+[2026-06-05 12:58:47.501] [info] Building GA71 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 12:58:47.504] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/GA71.294.bin
+[2026-06-05 12:58:47.512] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 12:58:47.514] [info]   Building reaction MTs = 60, 2, 111, 53, 59, 58, 91, 102, 105, 107, 52, 51, 22, 56, 104, 17, 55, 103, 16, 54, 106, 28, 57
+[2026-06-05 12:58:47.515] [info] Building PU239 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 12:58:47.518] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/PU239.294.bin
+[2026-06-05 12:58:47.560] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/PU239.294.urr.ace.bin
+[2026-06-05 12:58:47.565] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 12:58:47.566] [info]   Building reaction MTs = 75, 16, 17, 76, 18, 77, 66, 37, 74, 78, 79, 51, 80, 73, 102, 89, 91, 90, 62, 63, 64, 65, 61, 2, 60, 67, 68, 69, 57, 86, 70, 58, 87, 71, 59, 88, 53, 82, 72, 54, 83, 81, 52, 84, 55, 85, 56
+[2026-06-05 12:58:47.567] [info] Building PU240 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 12:58:47.568] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/PU240.294.bin
+[2026-06-05 12:58:47.603] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/PU240.294.urr.ace.bin
+[2026-06-05 12:58:47.606] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 12:58:47.607] [info]   Building reaction MTs = 75, 16, 17, 76, 18, 77, 66, 37, 74, 78, 79, 51, 80, 73, 102, 89, 91, 90, 62, 63, 64, 65, 61, 2, 60, 67, 68, 69, 57, 86, 70, 58, 87, 71, 59, 88, 53, 82, 72, 54, 83, 81, 52, 84, 55, 85, 56
+[2026-06-05 12:58:47.608] [info] Building PU241 at temperatures: TemperatureRange(294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C])
+[2026-06-05 12:58:47.610] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/freegas/njoy_ace/v0.11.0/dir/PU241.294.bin
+[2026-06-05 12:58:47.622] [info] Loading /opt/tripoli-5/delos/nuclide/endfb8r0_mcnp/urr/njoy_ace/v0.4.0/dir/PU241.294.urr.ace.bin
+[2026-06-05 12:58:47.625] [info]   Building free gas collisions at temperature 294 [K], 2.5334957256000003e-08 [MeV], 20.850000000000023 [°C]
+[2026-06-05 12:58:47.626] [info]   Building reaction MTs = 53, 59, 58, 61, 62, 91, 64, 65, 52, 51, 57, 18, 56, 17, 55, 16, 54, 2, 60, 102, 63
+[2026-06-05 12:58:47.685] [info] *** Beginning of simulation ***
+[2026-06-05 12:58:47.734] [info] Cycle: 1 of 110
+[2026-06-05 12:58:47.807] [info]   kstep = 1.39060
+[2026-06-05 12:58:47.808] [info] Cycle: 2 of 110
+[2026-06-05 12:58:47.860] [info]   kstep = 1.14190
+[2026-06-05 12:58:47.862] [info] Cycle: 3 of 110
+[2026-06-05 12:58:47.914] [info]   kstep = 1.05900
+[2026-06-05 12:58:47.915] [info] Cycle: 4 of 110
+[2026-06-05 12:58:47.960] [info]   kstep = 1.02550
+[2026-06-05 12:58:47.962] [info] Cycle: 5 of 110
+[2026-06-05 12:58:48.011] [info]   kstep = 1.01480
+[2026-06-05 12:58:48.012] [info] Cycle: 6 of 110
+[2026-06-05 12:58:48.051] [info]   kstep = 0.99790
+[2026-06-05 12:58:48.052] [info] Cycle: 7 of 110
+[2026-06-05 12:58:48.090] [info]   kstep = 0.99380
+[2026-06-05 12:58:48.091] [info] Cycle: 8 of 110
+[2026-06-05 12:58:48.130] [info]   kstep = 1.00970
+[2026-06-05 12:58:48.132] [info] Cycle: 9 of 110
+[2026-06-05 12:58:48.169] [info]   kstep = 1.00700
+[2026-06-05 12:58:48.171] [info] Cycle: 10 of 110
+[2026-06-05 12:58:48.208] [info]   kstep = 0.98510
+[2026-06-05 12:58:48.209] [info] Cycle: 11 of 110
+[2026-06-05 12:58:48.251] [info]   kstep = 1.02270
+[2026-06-05 12:58:48.252] [info] Cycle: 12 of 110
+[2026-06-05 12:58:48.290] [info]   kstep = 1.00480   kstep_avg = 1.01375 +/- 0.00895
+[2026-06-05 12:58:48.291] [info] Cycle: 13 of 110
+[2026-06-05 12:58:48.331] [info]   kstep = 0.99500   kstep_avg = 1.00750 +/- 0.00811
+[2026-06-05 12:58:48.333] [info] Cycle: 14 of 110
+[2026-06-05 12:58:48.374] [info]   kstep = 0.98030   kstep_avg = 1.00070 +/- 0.00890
+[2026-06-05 12:58:48.375] [info] Cycle: 15 of 110
+[2026-06-05 12:58:48.417] [info]   kstep = 0.97580   kstep_avg = 0.99572 +/- 0.00850
+[2026-06-05 12:58:48.418] [info] Cycle: 16 of 110
+[2026-06-05 12:58:48.458] [info]   kstep = 1.00330   kstep_avg = 0.99698 +/- 0.00706
+[2026-06-05 12:58:48.460] [info] Cycle: 17 of 110
+[2026-06-05 12:58:48.500] [info]   kstep = 1.02730   kstep_avg = 1.00131 +/- 0.00737
+[2026-06-05 12:58:48.501] [info] Cycle: 18 of 110
+[2026-06-05 12:58:48.565] [info]   kstep = 1.00000   kstep_avg = 1.00115 +/- 0.00638
+[2026-06-05 12:58:48.566] [info] Cycle: 19 of 110
+[2026-06-05 12:58:48.624] [info]   kstep = 0.99280   kstep_avg = 1.00022 +/- 0.00571
+[2026-06-05 12:58:48.625] [info] Cycle: 20 of 110
+[2026-06-05 12:58:48.674] [info]   kstep = 0.99090   kstep_avg = 0.99929 +/- 0.00519
+[2026-06-05 12:58:48.675] [info] Cycle: 21 of 110
+[2026-06-05 12:58:48.721] [info]   kstep = 0.98400   kstep_avg = 0.99790 +/- 0.00489
+[2026-06-05 12:58:48.721] [info] Cycle: 22 of 110
+[2026-06-05 12:58:48.765] [info]   kstep = 1.00640   kstep_avg = 0.99861 +/- 0.00452
+[2026-06-05 12:58:48.767] [info] Cycle: 23 of 110
+[2026-06-05 12:58:48.810] [info]   kstep = 1.01390   kstep_avg = 0.99978 +/- 0.00432
+[2026-06-05 12:58:48.811] [info] Cycle: 24 of 110
+[2026-06-05 12:58:48.853] [info]   kstep = 1.00070   kstep_avg = 0.99985 +/- 0.00400
+[2026-06-05 12:58:48.854] [info] Cycle: 25 of 110
+[2026-06-05 12:58:48.897] [info]   kstep = 0.97790   kstep_avg = 0.99839 +/- 0.00400
+[2026-06-05 12:58:48.898] [info] Cycle: 26 of 110
+[2026-06-05 12:58:48.940] [info]   kstep = 1.01450   kstep_avg = 0.99939 +/- 0.00388
+[2026-06-05 12:58:48.941] [info] Cycle: 27 of 110
+[2026-06-05 12:58:48.982] [info]   kstep = 1.00090   kstep_avg = 0.99948 +/- 0.00364
+[2026-06-05 12:58:48.984] [info] Cycle: 28 of 110
+[2026-06-05 12:58:49.026] [info]   kstep = 1.00000   kstep_avg = 0.99951 +/- 0.00344
+[2026-06-05 12:58:49.027] [info] Cycle: 29 of 110
+[2026-06-05 12:58:49.069] [info]   kstep = 1.01670   kstep_avg = 1.00042 +/- 0.00337
+[2026-06-05 12:58:49.071] [info] Cycle: 30 of 110
+[2026-06-05 12:58:49.113] [info]   kstep = 0.99630   kstep_avg = 1.00021 +/- 0.00321
+[2026-06-05 12:58:49.114] [info] Cycle: 31 of 110
+[2026-06-05 12:58:49.157] [info]   kstep = 0.99600   kstep_avg = 1.00001 +/- 0.00306
+[2026-06-05 12:58:49.158] [info] Cycle: 32 of 110
+[2026-06-05 12:58:49.200] [info]   kstep = 1.00330   kstep_avg = 1.00016 +/- 0.00292
+[2026-06-05 12:58:49.201] [info] Cycle: 33 of 110
+[2026-06-05 12:58:49.244] [info]   kstep = 1.01890   kstep_avg = 1.00097 +/- 0.00291
+[2026-06-05 12:58:49.246] [info] Cycle: 34 of 110
+[2026-06-05 12:58:49.293] [info]   kstep = 1.00950   kstep_avg = 1.00133 +/- 0.00280
+[2026-06-05 12:58:49.295] [info] Cycle: 35 of 110
+[2026-06-05 12:58:49.351] [info]   kstep = 0.99120   kstep_avg = 1.00092 +/- 0.00272
+[2026-06-05 12:58:49.353] [info] Cycle: 36 of 110
+[2026-06-05 12:58:49.399] [info]   kstep = 0.99900   kstep_avg = 1.00085 +/- 0.00261
+[2026-06-05 12:58:49.400] [info] Cycle: 37 of 110
+[2026-06-05 12:58:49.446] [info]   kstep = 1.00760   kstep_avg = 1.00110 +/- 0.00253
+[2026-06-05 12:58:49.449] [info] Cycle: 38 of 110
+[2026-06-05 12:58:49.494] [info]   kstep = 1.02980   kstep_avg = 1.00212 +/- 0.00264
+[2026-06-05 12:58:49.495] [info] Cycle: 39 of 110
+[2026-06-05 12:58:49.541] [info]   kstep = 1.00640   kstep_avg = 1.00227 +/- 0.00255
+[2026-06-05 12:58:49.542] [info] Cycle: 40 of 110
+Killed
