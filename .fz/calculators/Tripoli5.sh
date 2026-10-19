@@ -24,6 +24,7 @@
 #   6 the script failed (Python exception or crash, cause on stderr)
 #   7 the script ended without running any simulation
 #   8 the last simulation stopped before its last cycle
+#   9 the last (criticality) simulation has no keff: no active cycle (discard >= nb_cycles)
 
 if [ $# -eq 0 ]; then
   echo "Usage: $0 <script.py ...|input_directory>" >&2
@@ -90,5 +91,14 @@ if [ -n "$LAST" ]; then
     echo "TRIPOLI-5 last simulation stopped at cycle $1 of $3" >&2
     exit 8
   fi
+fi
+# Criticality simulation without keff: kstep logged but no kstep_avg (all cycles
+# discarded, TRIPOLI-5 only warns) and no kstep.writeToFile() result
+KSTEPS=$(awk '/\*\*\* Beginning of simulation \*\*\*/{k=0; a=0} /kstep = /{k++} /kstep_avg = /{a++} END{print k+0, a+0}' tripoli5.log)
+set -- $KSTEPS
+if [ "$1" -gt 0 ] && [ "$2" -eq 0 ] && ! grep -qs '^KSTEP statistics' -- *; then
+  echo "TRIPOLI-5 last simulation has no keff (no active cycle):" >&2
+  grep -m1 -o 'Number of discarded cycles >= total number of cycles.*' tripoli5.log >&2
+  exit 9
 fi
 exit 0

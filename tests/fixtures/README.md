@@ -13,6 +13,12 @@ Extracted verbatim from the outputs of the notebooks of the TRIPOLI-5 0.3.0 user
 | `simulation_features/` | examples/features/simulation | nine simulations (fixed source and criticality), `[error]` lines of killed particles |
 | `warnings/` | examples/features/mixtures (the 4 `[warning]` lines) + the jezebel log | warnings |
 
+Run with TRIPOLI-5 0.3.0 (catalog paths replaced by `/opt/tripoli-5`):
+
+| fixture | input | content |
+|---|---|---|
+| `all_discarded/` | `examples/Tripoli5/jezebel.py` with `nb_cycles=5`, `nb_events=1000` (`discard=10`) | warning `Number of discarded cycles >= total number of cycles: 10 >= 5`, 5 inactive cycles, no `kstep_avg` |
+
 Built from these logs (not produced by TRIPOLI-5 as such):
 
 | fixture | content |

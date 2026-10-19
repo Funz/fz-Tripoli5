@@ -80,7 +80,7 @@ outputs from it:
 
 | output | value |
 |---|---|
-| `t5_status` | `OK`. Otherwise one of `ERROR: <Python exception or crash>`, `NO SIMULATION` (no `simu.run()`), `INCOMPLETE: cycle n of m` or `NO OUTPUT` |
+| `t5_status` | `OK`. Otherwise one of `ERROR: <Python exception or crash>`, `NO SIMULATION` (no `simu.run()`), `INCOMPLETE: cycle n of m`, `NO KEFF: <reason>` (criticality simulation without any active cycle, e.g. `discard` >= `nb_cycles`, which TRIPOLI-5 only warns about) or `NO OUTPUT` |
 | `keff`, `sigma_keff` | k-effective and its standard deviation: the `kstep_avg = M +/- S` of the last logged cycle. This is the value `simu.getKStep()` returns (mean, √var). If the log has none, it is read from a file written by `kstep.writeToFile(...)` |
 | `cycles` | number of cycles (batches) run |
 | `kstep` | list of the kstep of each cycle (convergence check) |
@@ -88,7 +88,7 @@ outputs from it:
 | `simulation_time` | wall time of the last simulation (s), taken from the log time stamps |
 | `t5_errors` | number of `[error]` lines, e.g. particles killed after a transport exception |
 | `t5_warnings` | distinct `[warning]` messages, with their count |
-| `results` | content of `tripoli5_results.json` if the script writes it (any JSON value) |
+| `results` | content of `tripoli5_results.json` if the script writes it (any JSON value). fz splits a JSON object into one column per key: see below |
 
 When a script runs several simulations (e.g. surface tracking, then delta tracking),
 `keff`, `cycles`, `kstep` and `simulation_time` refer to the **last** one.
@@ -101,6 +101,11 @@ import json
 json.dump({"keff": float(k.mean[0]), "flux": flux.mean.ravel().tolist()},
           open("tripoli5_results.json", "w"))
 ```
+
+fz flattens a JSON object into one column per key, prefixed with `results_`, recursively
+for nested objects: the example above gives the columns `results_keff` and `results_flux`
+(a list), and `{"sub": {"a": 1}}` gives `results_sub_a`. There is then no `results`
+column. A JSON value that is not an object (number, list) stays in a `results` column.
 
 Another option is a custom output on a file written by `score.writeToFile(...)`
 (whitespace-separated columns `volume_rank group_id E [MT name] mean mean_std`):
@@ -140,7 +145,8 @@ automatically. With several local cases running in parallel (`FZ_MAX_WORKERS`), 
 
 Exit codes: 0 normal end, 1 no `.py` script, 2 usage, 4 interpreter or `tripoli5`
 module not found, 6 the script failed (Python exception or crash; the cause is printed
-on stderr), 7 no simulation run, 8 the last simulation stopped before its last cycle.
+on stderr), 7 no simulation run, 8 the last simulation stopped before its last cycle, 9 the last simulation is a
+criticality one without keff (all its cycles discarded, `discard` >= `nb_cycles`).
 fz marks a case with a non-zero exit code as failed.
 
 ### Remote execution
