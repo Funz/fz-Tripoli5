@@ -42,6 +42,8 @@ ANSI = re.compile(r"\x1b\[[0-9;]*m")
 BEGIN = "*** Beginning of simulation ***"
 CYCLE = re.compile(r"^Cycle: (\d+) of (\d+)")
 KSTEP = re.compile(r"^\s*kstep = (\S+)(?:\s+kstep_avg = (\S+) \+/- (\S+))?")
+# "Number of discarded cycles >= total number of cycles: 10 >= 5", logged before the run
+DISCARD = re.compile(r"^Number of discarded cycles >= total number of cycles.*$")
 KSTEP_FILE = re.compile(r"^KSTEP statistics\s*:\s*(\S+)\s+(\S+)")
 # last line of a Python traceback: "RuntimeError: ...", "tripoli5.Error: ..."
 EXCEPTION = re.compile(r"^([A-Za-z_][\w.]*(?:Error|Exception|Interrupt|Exit)\b:?.*)$")
@@ -137,6 +139,20 @@ def _crash(d):
     return None
 
 
+def _no_keff(d):
+    """Why a criticality simulation (kstep logged) has no keff, or None.
+
+    TRIPOLI-5 logs kstep_avg only for the active cycles: with discard >= nb_cycles
+    it only warns and runs every cycle as inactive, so there is no keff."""
+    sim = _last_simulation(d)
+    if not any(KSTEP.match(r[2]) for r in sim or []) or _keff(d):
+        return None
+    for _, level, message in reversed(_records(d)):
+        if level == "warning" and DISCARD.match(message.strip()):
+            return message.strip()
+    return "no active cycle (discard >= nb_cycles?)"
+
+
 def t5_status(d):
     """OK, or why the case has no complete result."""
     records = _records(d)
@@ -150,6 +166,9 @@ def t5_status(d):
         return "NO SIMULATION"
     if cycles and cycles[0] < cycles[1]:
         return "INCOMPLETE: cycle %d of %d" % cycles
+    no_keff = _no_keff(d)
+    if no_keff:
+        return "NO KEFF: " + no_keff
     return "OK"
 
 

@@ -124,6 +124,21 @@ def test_incomplete_last_simulation(case, fake_t5):
     assert "cycle 40 of 110" in r.stderr
 
 
+def test_all_cycles_discarded(case, fake_t5):
+    fake_t5("all_discarded")
+    r = run(case, "jezebel.py")
+    assert r.returncode == 9
+    assert "Number of discarded cycles >= total number of cycles: 10 >= 5" in r.stderr
+
+
+def test_keff_from_kstep_file(case, fake_t5):
+    """No kstep_avg in the log, but a kstep.writeToFile() result: keff exists."""
+    fake_t5("kstep_file")
+    shutil.copy(ROOT / "tests" / "fixtures" / "kstep_file" / "kstep-jezebel.log", case)
+    r = run(case, "jezebel.py")
+    assert r.returncode == 0, r.stderr
+
+
 def test_several_simulations(case, fake_t5):
     """Cycles are those of the last simulation (simulation_features: 9 runs, last 1 of 1)."""
     fake_t5("simulation_features")

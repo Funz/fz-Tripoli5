@@ -46,6 +46,13 @@ EXPECTED = {
                     "cycles": 40},
     "no_simulation": {"t5_status": "NO SIMULATION", "keff": None, "simulations": 0},
     "kstep_file": {"t5_status": "OK", "keff": 1.00238, "sigma_keff": 0.00157},
+    # discard 10 >= nb_cycles 5: TRIPOLI-5 only warns, runs 5 inactive cycles, no kstep_avg
+    "all_discarded": {"t5_status": "NO KEFF: Number of discarded cycles >= total number of "
+                                   "cycles: 10 >= 5",
+                      "keff": None, "sigma_keff": None, "cycles": 5,
+                      "kstep": [1.27, 1.17, 1.196, 0.977, 1.012], "simulations": 1,
+                      "t5_warnings": "Number of discarded cycles >= total number of cycles: "
+                                     "10 >= 5"},
 }
 
 
